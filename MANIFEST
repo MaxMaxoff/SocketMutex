@@ -2,3 +2,4 @@
 setup.cfg
 setup.py
 SocketMutex/SocketMutex.py
+SocketMutex/__init__.py

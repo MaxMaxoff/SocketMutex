@@ -12,7 +12,7 @@
 Install Mutex using pip:
 
 ```bash
-$ pip install [--user] 
+$ pip install [--user] socketmutex
 ```
 
 ### Usage
