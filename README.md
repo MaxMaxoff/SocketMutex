@@ -1,6 +1,6 @@
-# Mutex #
+# SocketMutex #
 
-**Mutex** python3 module for realize locking mechanism using sockets
+**SocketMutex** python3 module for realize locking mechanism using sockets
 
 ## Requirements
 * socket (build-in)
@@ -19,14 +19,14 @@ $ pip install [--user]
 Import module:
 
 ```python
-from Mutex import Mutex
+from SocketMutex import Mutex
 ```
 
 Example 1
 ```python
 # import module
 import os  # just to determine script name
-from Mutex import Mutex
+from SocketMutex import Mutex
 
 # create killer
 mutex = Mutex(f"{os.path.basename(__file__)}")  # using script name as market for mutex for python 3.6 or above

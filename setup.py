@@ -2,15 +2,15 @@
 
 from distutils.core import setup
 setup(
-  name = 'Mutex',
-  packages = ['Mutex'],
+  name = 'SocketMutex',
+  packages = ['SocketMutex'],
   version = '0.1',
   license = 'MIT',
   description = "module for realize locking mechanism using sockets",
   author = 'Maxim Toropov',
-  author_email = 'maxim.vt at gmail.com',
-  url = 'https://github.com/MaxMaxoff/Mutex',
-  download_url = 'https://github.com/MaxMaxoff/Mutex/archive/v_01.tar.gz',
+  author_email = 'maxim.vt@gmail.com',
+  url = 'https://github.com/MaxMaxoff/SocketMutex',
+  download_url = 'https://github.com/MaxMaxoff/SocketMutex/archive/v_01.tar.gz',
   keywords = ['locking', 'lock', 'mutex', 'socket', 'run-once'],
   install_requires = [
       ],
