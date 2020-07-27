@@ -9,8 +9,8 @@ setup(
   description = "module for realize locking mechanism using sockets",
   author = 'Maxim Toropov',
   author_email = 'maxim.vt at gmail.com',
-  url = '',
-  download_url = '',
+  url = 'https://github.com/MaxMaxoff/Mutex',
+  download_url = 'https://github.com/MaxMaxoff/Mutex/archive/v_01.tar.gz',
   keywords = ['locking', 'lock', 'mutex', 'socket', 'run-once'],
   install_requires = [
       ],
